@@ -1,0 +1,46 @@
+@charset "utf-8";
+p {
+	text-align: justify;
+}
+div.img1 {
+	text-align: center;
+}
+
+.h3v1{
+	font-weight: 600;
+}
+
+li {
+	color: black;
+	font-size: 14px;
+	text-transform: uppercase;
+	list-style: none;
+	letter-spacing: 1.5px;
+}
+li:not(:last-child){
+	margin-bottom: 15px;
+}
+li:before{
+	content: "\058E";
+	padding-right: 1em;
+}
+.bTerkini {
+	background: #FF9800;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.grayInText {
+	backface-visibility: visible;
+	background: #BFBFBF;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: -15px;
+}
+
+.p1 {
+	padding-top: 1em;
+}
+.h5v1 {
+	margin-top : 1px;
+	color: red;
+}
